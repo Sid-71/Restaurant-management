@@ -179,3 +179,9 @@ INSERT INTO availability (date, capacity) VALUES
 INSERT INTO bookings (date, tableId) VALUES
   ('2023-07-16', '1'),
   ('2023-07-17', '2');
+
+
+
+  ## API RESPONSE 
+  ![register](pg1.jpg)
+  ![login](postman2.jpg)![availbility](postman3.jpg)![bookings](postman5.jpg)

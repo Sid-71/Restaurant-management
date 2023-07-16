@@ -30,8 +30,17 @@
 				{
 					"name": "login",
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"abc\",\r\n    \"password\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": "http://localhost:3042/login"
 					},
 					"response": []
@@ -91,7 +100,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"date\":\"15-07-2023\",\r\n    \"tableId\":\"1\"\r\n}",
+							"raw": "{\r\n    \"date\":\"17-07-2023\",\r\n    \"tableId\":\"1\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
